@@ -26,7 +26,7 @@ class Artist
     @@all
   end
 
-  def self.find_or_create_by_name(name) # changed arg from artist_name
+  def self.find_or_create_by_name(name) # changed argument from artist_name
    self.find(name) ? self.find(name) : self.create(name)
   end
 
